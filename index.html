@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alphabet Sounds and Images</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    max-width: 800px;
+    padding: 20px;
+    overflow-y: auto; /* Added to make the content scrollable */
+    max-height: calc(100vh - 40px); /* Adjust based on your needs */
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: scale(1.1);
+  }
+  h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: yellow;
+    border-radius: 15px;
+  
+  }
+  b {
+    font-size: 50px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Alphabet</h1>
+<div class="grid-container">
+  <div class="box" onclick="playSound('a')" style="background-image: url('https://th.bing.com/th/id/R.517aca2a65ebdb191e6f7de2dc3a42f1?rik=hksE2fjwuhX70g&riu=http%3a%2f%2fwww.onewheaton.com%2funtold%2fwp-content%2fuploads%2f2015%2f02%2fapples2.jpg&ehk=46CMLUj0sQwwMwRpDJAwl8EGzCBAHgfZfUoYIKlMwOo%3d&risl=&pid=ImgRaw&r=0');"><b>A</b></div>
+  <div class="box" onclick="playSound('b')" style="background-image: url('https://th.bing.com/th?id=OIP.NpsfLKwvGDLhX0oBudUIPwHaHT&w=251&h=248&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>B</b></div>
+  <div class="box" onclick="playSound('c')" style="background-image: url('https://www.bing.com/th?id=OIP.i0PIy8Wi7FMKMTBc_WeAYQHaJW&pid=3.1&cb=&w=300&h=300&p=0');"><b>C</b></div>
+  <div class="box" onclick="playSound('d')" style="background-image: url('https://www.bing.com/th?id=OIP.3ilfShRUg2_2PibLWH17QwHaG4&pid=3.1&cb=&w=300&h=300&p=0');"><b>D</b></div>
+  <div class="box" onclick="playSound('e')" style="background-image: url('https://th.bing.com/th?id=OIP.TeuIkeKYrJXzK6Ae0L58JAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>E</b></div>
+  <div class="box" onclick="playSound('f')" style="background-image: url('https://th.bing.com/th?id=OIP.jaj3DHYzE4vAkTVRy9mv7AHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>F</b></div>
+  <div class="box" onclick="playSound('g')" style="background-image: url('https://th.bing.com/th?id=OIP.KhwwDBObHNS-jQr61EnSUgHaDL&w=349&h=150&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>G</b></div>
+  <div class="box" onclick="playSound('h')" style="background-image: url('https://th.bing.com/th?id=OIP.684lxAOGhwAcMA15RAhZBwHaGK&w=273&h=228&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>H</b></div>
+  <div class="box" onclick="playSound('i')" style="background-image: url('https://th.bing.com/th?id=OIP.x0YSAhj2lKRPK75QW4hkZgHaF8&w=279&h=223&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>I</b></div>
+  <div class="box" onclick="playSound('j')" style="background-image: url('https://www.bing.com/th?id=OIP.RA54znrczcgWpg0w0_-JBwHaJ9&pid=3.1&cb=&w=300&h=300&p=0');"><b>J</b></div>
+  <div class="box" onclick="playSound('k')" style="background-image: url('https://www.bing.com/th?id=OIP.3k2ikdE_IDVvkJv5b_eDvgHaHa&pid=3.1&cb=&w=300&h=300&p=0');"><b>K</b></div>
+  <div class="box" onclick="playSound('l')" style="background-image: url('https://th.bing.com/th?id=OIP.L2Pj0l53afcQqOG5mcGVEAHaIi&w=232&h=268&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>L</b></div>
+  <div class="box" onclick="playSound('m')" style="background-image: url('https://th.bing.com/th?id=OIP.uFoZ3n4eD8dZ6G0VNagj4AHaIl&w=232&h=269&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>M</b></div>
+  <div class="box" onclick="playSound('n')" style="background-image: url('https://th.bing.com/th?id=OIP.TV6A5R91HOJ6xic7JhASwgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>N</b></div>
+  <div class="box" onclick="playSound('o')" style="background-image: url('https://th.bing.com/th?id=OIP.0qKpC4ZPnAdiEvKbUPAvUgHaHz&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>O</b></div>
+  <div class="box" onclick="playSound('p')" style="background-image: url('https://th.bing.com/th?id=OIP.Z2PqEFB4k2SHsC1VByiGYwHaEh&w=320&h=195&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>P</b></div>
+  <div class="box" onclick="playSound('q')" style="background-image: url('https://th.bing.com/th?id=OIP.Z_c419R00oHObXF9hAMYqwHaIj&w=232&h=268&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>Q</b></div>
+  <div class="box" onclick="playSound('r')" style="background-image: url('https://th.bing.com/th?id=OIP.sQ2havZ0nJ3nfgKInHSgfgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>R</b></div>
+  <div class="box" onclick="playSound('s')" style="background-image: url('https://th.bing.com/th?id=OIP.Xk5zzE7-_7cUDFcdh1ehcAHaHK&w=254&h=245&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>S</b></div>
+  <div class="box" onclick="playSound('t')" style="background-image: url('https://th.bing.com/th?id=OIP.uqdOiJbPMQFyRtj1O5oYHwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>T</b></div>
+  <div class="box" onclick="playSound('u')" style="background-image: url('https://th.bing.com/th?id=OIP.fq1ibwZDRHSRLDqv54bUDAHaG3&w=259&h=240&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>U</b></div>
+  <div class="box" onclick="playSound('v')" style="background-image: url('https://th.bing.com/th?id=OIP.Q_O9kW2HCIuhnSygmqA59QHaF3&w=280&h=222&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>V</b></div>
+  <div class="box" onclick="playSound('w')" style="background-image: url('https://th.bing.com/th?id=OIP.lF5z4K05bTtlwJqthrNLWAHaF0&w=282&h=221&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>W</b></div>
+  <div class="box" onclick="playSound('x')" style="background-image: url('https://th.bing.com/th?id=OIP.l2P-WWGH_KoqOe2n2tGibAHaKm&w=208&h=299&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>X</b></div>
+  <div class="box" onclick="playSound('y')" style="background-image: url('https://th.bing.com/th?id=OIP.mm7mp9WcpTTklkQln25FAwHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>Y</b></div>
+  <div class="box" onclick="playSound('z')" style="background-image: url('https://th.bing.com/th?id=OIP.8pYv7cVMM-xBntGODOdNUAHaIL&w=237&h=262&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"><b>Z</b></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Repeat this for other letters -->
+</div>
+
+<audio id="sound" src="" preload="auto"></audio>
+
+<script>
+  function playSound(letter) {
+    var audio = document.getElementById("sound");
+    audio.src = "sounds/" + letter + ".mp3";
+    audio.play();
+  }
+</script>
+
+</body>
+</html>
